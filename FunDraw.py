@@ -1,3 +1,5 @@
+# A Very simple and fun program I (IAmGPIO) wrote to randomly select a winner from a CSV file.
+
 import time
 import random
 import sys
@@ -63,7 +65,7 @@ def main():
     input("Let's Go....!\n")  # Wait for user to press Enter before continuing
     time.sleep(1)  # Wait for 3 sec
     
-    file_path = r"C:\Users\Duncan\Desktop\Get Retweets\Users.txt"
+    file_path = r"C:\Users\Dunc\Desktop\Get Retweets\Users.txt"
     users, max_length = load_users(file_path)
     
     print(Fore.GREEN + f"\n{len(users)} usernames loaded.\n" + Style.RESET_ALL)  # Print "X Usernames Loaded" in green
